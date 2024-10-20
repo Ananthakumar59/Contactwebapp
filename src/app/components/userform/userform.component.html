@@ -1,0 +1,53 @@
+<div>
+    <fieldset class="fieldset-custom">
+      <legend>{{ createMode ? 'Create Contact' : 'Edit Contact' }}</legend> 
+    <form [formGroup]="ContactForm" (ngSubmit)="onSubmit()" class="mat-elevation-z8 form-container">
+      
+      <div class="form-row">
+        
+        <mat-form-field appearance="fill" class="example-full-width">
+            <mat-label>ID</mat-label>
+            <input matInput type="text" id="id" formControlName="id" required>
+          </mat-form-field>
+       
+       
+        <mat-form-field appearance="fill" class="example-full-width">
+            <mat-label>FirstName</mat-label>
+            <input matInput type="text" id="firstName" formControlName="firstName" required>
+          </mat-form-field>
+
+        
+          
+         </div>
+   
+     
+  
+        <div class="form-row">
+    
+          <mat-form-field appearance="fill" class="example-full-width">
+            <mat-label>LastName</mat-label>
+            <input matInput type="text" id="lastName" formControlName="lastName">
+           
+          </mat-form-field>
+          <mat-form-field appearance="fill" class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input matInput type="text" id="email" formControlName="email">
+           
+          </mat-form-field>
+
+              
+              
+  
+        <button mat-raised-button color="primary" type="submit" [disabled]="!ContactForm.valid" class="btn btn-lg btn-oval custom-button">{{submitButtonLabel}}</button> 
+    
+         </div>
+          
+    </form>
+  </fieldset>
+  <div class="button-container"> 
+    
+  
+     <button mat-raised-button (click)="goBack()" class="btn btn-lg btn-oval custom-button back"> Back </button>
+   
+   </div>
+  </div>

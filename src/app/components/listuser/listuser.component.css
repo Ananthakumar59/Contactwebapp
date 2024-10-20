@@ -1,0 +1,176 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  
+  
+  /* tr:hover {
+    background-color: #f5f5f5;
+  } */
+  tr:nth-child(even) {
+    background-color: #f5f5f5; /* Alternate row color */
+  }
+  button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .mat-typography {
+    letter-spacing: 0.0178571em;
+    font: 400 14px / 20px Roboto, sans-serif;
+    border-radius: 20px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  .btn-oval {
+    border-radius: 20px; /* Adjust the value as needed */
+  } 
+  .mat-elevation-z8, .mat-mdc-elevation-specific.mat-elevation-z8 {
+  box-shadow: 0px 5px 5px -3px rgba(60, 58, 85, 0.2), 0px 8px 10px 1px rgba(4, 83, 241, 0.87), 0px 3px 14px 2px rgb(155 143 143 / 12%);
+  }
+  
+  .mat-mdc-header-row {
+  
+  background-color: #183b6a;
+  
+  color:#FFFFFF;
+  /* font-family: 'Roboto', Helvetica, Arial, 'sans-serif';
+  font-size: 13px; */
+  font-family: Poppins,sans-serif;
+  font-size: 18px;
+  }
+  
+  .mat-mdc-cell{
+  
+  /* font-family: 'Roboto', Helvetica, Arial, 'sans-serif'; */
+  font-family: Poppins,sans-serif;
+  font-size: 18px;
+  
+  }
+  /* .mat-sort-header
+  {
+  background-color: #FFFFFF;
+  
+  } */
+  /* .mdc-data-table__cell, .mdc-data-table__header-cell {
+  font-family: 'Roboto', Helvetica, Arial, 'sans-serif';
+  font-size: 13px;
+  
+  } */
+  
+  
+  
+  
+  .fieldset-custom {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .fieldset-custom > legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  .form-container {
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 40px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%; /* Adjusted to 100% to allow wrapping within the container */
+    margin-bottom: 20px; /* Add some space between the form fields and the button */
+  }
+  
+  .example-full-width {
+    flex: 1;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .custom-button {
+    font-size: 15px;
+    font-family: Poppins,sans-serif;
+    padding: 0 16px;
+    height: 48px;
+    min-height: 48px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  
+  .icon-space {
+  margin-left: 8px; /* Adjust the spacing as needed */
+  }
+  .mat-form-field {
+  border-radius: 20px; /* Adjust the value as needed */
+  overflow: hidden; /* Ensure content stays within the rounded borders */
+  }
+  
+  .mat-form-field-wrapper {
+  border-radius: 20px; /* Adjust the value as needed */
+  }
+  .mat-input {
+  border-radius: 20px;
+  padding: 10px 30px;
+  width:max-content;
+  }
+  .button-container {
+  display: flex;
+  justify-content: flex-end;
+  }
+  .search-container {
+  display: flex;
+  justify-content: flex-start;
+  }
+  
+  .search-and-button-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  }
+  
+  .searchcontainer {
+  flex: 1; /* Take remaining space */
+  }
+  
+  /* .button-container {
+  margin-left: 10px;
+  } */
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent default browser scrollbars */
+}
+.container {
+  width: 83vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  /* Add other styles as needed */
+  padding-left: 10px;
+}
